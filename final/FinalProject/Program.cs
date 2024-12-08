@@ -1,9 +1,2 @@
-using System;
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello FinalProject World!");
-    }
-}
+﻿using var game = new SimpleGame.Game1();
+game.Run();
